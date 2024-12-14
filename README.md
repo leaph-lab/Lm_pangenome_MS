@@ -4,20 +4,16 @@ Code used to replicate data analyses in the manuscruipt "The pangenome evolution
 ## Required Python packages
 - pandas
 - numpy
-- statsmodels
 - matplotlib
 - seaborn
 - scipy
-- itertools
-- collections
+- statsmodels
+- scikit-learn
+- shapely
 - statannot
 - matplotlib_venn
-- basemap
-- pyshp 
-- shapely
-- scikit-learn
 - scikit-bio
-- statsmodel
+- shapefile
 - rpy2
 
 ## Required R packages
@@ -84,5 +80,3 @@ The code included analysis for:\
 
 ```Fig. 4d```: Comparison of genome size, GC content, LIPI-1, LIPI-2, and IS between soil and clinical isolates.\
 ```Supplementary Fig. 12```: Comparison of LIPI-4, _inl_, ARG, transposons, and prophage between soil and clinical isolates.
-
-
