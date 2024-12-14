@@ -34,10 +34,9 @@ Code used to replicate data analyses in the manuscruipt "The pangenome evolution
 
 > [!NOTE]
 > For running the R code in the Jupyter notebook install ```rpy2``` package using ```pip install rpy2```
-
-> Use the command ```%load_ext rpy2.ipython``` for using this library before executing the R code in the python notebook
-> Ensure your R and Python environments are correctly configured and that ```rpy2``` can access R.
-> For any R code execution directly in the notebook, make sure to include the appropriate ```%R``` or ```%%R``` syntax when working with the ```rpy2``` extension.
+> - Use the command ```%load_ext rpy2.ipython``` for using this library before executing the R code in the python notebook
+> - Ensure your R and Python environments are correctly configured and that ```rpy2``` can access R.
+> - For any R code execution directly in the notebook, make sure to include the appropriate ```%R``` or ```%%R``` syntax when working with the ```rpy2``` extension.
 
 
 ## Structure
