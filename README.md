@@ -68,7 +68,7 @@ The code included analysis for:\
 ```Supplementary Fig. 7c```: Relative abundance of family among _Lm_ lineages.\
 ```Supplementary Fig. 7d```: Relative abundance of genus among _Lm_ lineages.
 
-```Supplementary Fig. 8```: MDS of OTUs among _Lm_ lineages.\
+```Supplementary Fig. 8```: MDS of bacterial community compositions among _Lm_ lineages.\
 ```Supplementary Fig. 8a```: Weighted UniFrac distance.\
 ```Supplementary Fig. 8b```: Bray-Curtis distance.
 
