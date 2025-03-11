@@ -30,19 +30,19 @@ Code used to replicate data analyses in the manuscruipt "Pangenome fluidity of _
 ```Lm_pangenome_MS.ipynb```: The code used for analysis and to generate the plots in Figs. 1a–d, 1f, 2a–d, 2f-i, 3a-h, and Supplementary Figs. 1, 2, 4, 6-8, and 11.
 
 The code included analysis for:\
-```Supplementary Fig. 1```: Pangenome size and gene richness of _Lm_.\
+```Supplementary Fig. 1```: Pangenome size and gene richness of _Lm_.
 
 ```Fig. 1a```: Variation partitioning analysis (VPA) and permutation tests to explain overall gene richness using abiotic variables.\
 ```Fig. 1b```: VPA and permutation tests to explain gene richness, stratified by Clusters of Orthologous Groups (COGs), using abiotic variables.\
 ```Fig. 1c```: Spearman's correlation between gene richness and abiotic variables.\
-```Supplementary Fig. 2```: Proportion of abiotic variables associated with gene richness across COGs in _Lm_.\ 
+```Supplementary Fig. 2```: Proportion of abiotic variables associated with gene richness across COGs in _Lm_.\
 ```Fig. 1d```: Redundancy Analysis (RDA) between the accessory genome of _Lm_ and abiotic variables.\
 ```Fig. 1f```: Enrichment of COG functions among abiotic-linked genes.
 
 ```Fig. 2a```: VPA and permutation tests to explain overall gene richness using both abiotic and biotic (relative abundance of bacterial phyla) variables.\
 ```Fig. 2b```: VPA and permutation tests to explain gene richness, stratified by COGs, using both abiotic and biotic variables.\
 ```Fig. 2c```: Spearman's correlation between gene richness and biotic variables.\
-```Supplementary Fig. 4```: Proportion of bacterial phyla associated with gene richness across COGs in _Lm_.\ 
+```Supplementary Fig. 4```: Proportion of bacterial phyla associated with gene richness across COGs in _Lm_.\
 ```Fig. 2d```: RDA between the accessory genome of _Lm_ and biotic variables.\
 ```Fig. 2f```: Enrichment of COG functions among biotic-linked genes.\
 ```Fig. 2g```: Venn diagram of overlap between abiotic- and biotic-linked genes.\
