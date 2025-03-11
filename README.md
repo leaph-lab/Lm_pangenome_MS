@@ -1,5 +1,5 @@
 # Lm_pangenome_MS
-Code used to replicate data analyses in the manuscruipt "The pangenome evolution of _Listeria monocytogenes_ is associated with both abiotic factors and bacterial community composition"
+Code used to replicate data analyses in the manuscruipt "Pangenome fluidity of _Listeria monocytogenes_ is shaped by environmental pressures from climate, soil properties, and bacterial communities and dispersal dynamics."
 
 ## Required Python packages
 - pandas
@@ -18,6 +18,7 @@ Code used to replicate data analyses in the manuscruipt "The pangenome evolution
 
 ## Required R packages
 - vegan
+- tidyverse
 
 > [!NOTE]
 > For running the R code in the Jupyter notebook install ```rpy2``` package using ```pip install rpy2```
