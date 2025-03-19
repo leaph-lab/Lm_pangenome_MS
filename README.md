@@ -1,5 +1,5 @@
 # Lm_pangenome_MS
-Code used to replicate data analyses in the manuscruipt "Pangenome fluidity of _Listeria monocytogenes_ is shaped by environmental pressures from climate, soil properties, and bacterial communities and dispersal dynamics."
+Code used to replicate data analyses in the manuscruipt "Disentangling the impact of abiotic and biotic environmental factors and dispersal dynamics on bacterial pangenome fluidity."
 
 ## Required Python packages
 - pandas
@@ -37,28 +37,28 @@ The code included analysis for:\
 ```Fig. 1c```: Spearman's correlation between gene richness and abiotic variables.\
 ```Supplementary Fig. 2```: Proportion of abiotic variables associated with gene richness across COGs in _Lm_.\
 ```Fig. 1d```: Redundancy Analysis (RDA) between the accessory genome of _Lm_ and abiotic variables.\
-```Fig. 1f```: Enrichment of COG functions among abiotic-linked genes.
+```Fig. 1f```: Enrichment of COGs among abiotic-linked genes.
 
 ```Fig. 2a```: VPA and permutation tests to explain overall gene richness using both abiotic and biotic (relative abundance of bacterial phyla) variables.\
 ```Fig. 2b```: VPA and permutation tests to explain gene richness, stratified by COGs, using both abiotic and biotic variables.\
 ```Fig. 2c```: Spearman's correlation between gene richness and biotic variables.\
 ```Supplementary Fig. 4```: Proportion of bacterial phyla associated with gene richness across COGs in _Lm_.\
 ```Fig. 2d```: RDA between the accessory genome of _Lm_ and biotic variables.\
-```Fig. 2f```: Enrichment of COG functions among biotic-linked genes.\
-```Fig. 2g```: Venn diagram of overlap between abiotic- and biotic-linked genes.\
-```Fig. 2h```: Enrichment of COG functions among uniquely abiotic-linked genes.\
-```Fig. 2i```: Enrichment of COG functions among uniquely biotic-linked genes.
+```Supplementary Fig. 6a```: Enrichment of COGs among biotic-linked genes.\
+```Supplementary Fig. 6b```: Overlap between abiotic- and biotic-linked genes.\
+```Supplementary Fig. 6c```: Enrichment of COGs among exclusive abiotic-linked genes.\
+```Fig. 2g```: Enrichment of COGs among exclusive biotic-linked genes.
 
 ```Fig. 3a```: Distribution of _Lm_ lineages in the soil accross the US.\
-```Supplementary Fig. 6```: Mann-Whitney _U_ test to identify abiotic variables significantly differing among _Lm_ lineages.\
+```Supplementary Fig. 7```: Mann-Whitney _U_ test to identify abiotic variables significantly differing among _Lm_ lineages.\
 ```Fig. 3b```: Multidimensional scaling (MDS) on abiotic variables among _Lm_ lineages.\
-```Supplementary Fig. 7```: Mann-Whitney _U_ test to identify bacterial phyla with significantly different relative abundance among _Lm_ lineages.\
+```Supplementary Fig. 8```: Mann-Whitney _U_ test to identify bacterial phyla with significantly different relative abundance among _Lm_ lineages.\
 ```Fig. 3c```: MDS of bacterial community compositions using weighted UniFrac distances of OTUs among _Lm_ lineages.\
 ```Fig. 3d```: Pangenome composition across _Lm_ lineages, stratified into core and accessory genes, and predicted pangenome sizes for _Lm_ genomes based on 100 genomes per lineage.\
 ```Fig. 3e```: Functional enrichment analysis of COGs for lineage-associated genes.\
 ```Fig. 3f```: Comparison of genome size and GC content among _Lm_ lineages.\
-```Supplementary Fig. 8```: Comparison of _Listeria_ pathogenicity island (LIPI) genes, internalin (inl) genes, stress survival islet (SSI) genes, antibiotic resistance genes (ARGs), and mobile genetic elements (MGEs), including proportions of insertion sequences (IS), transposons, and prophages, among _Lm_ lineages.\
+```Supplementary Fig. 9```: Comparison of _Listeria_ pathogenicity island (LIPI) genes, internalin (inl) genes, stress survival islet (SSI) genes, antibiotic resistance genes (ARGs), and mobile genetic elements (MGEs), including proportions of insertion sequences (IS), transposons, and prophages, among _Lm_ lineages.\
 ```Fig. 3g```: VPA and permutation tests to explain overall gene richness using both abiotic and biotic variables for _Lm_ lineage III.\
 ```Fig. 3h```: Comparison of the variation in gene richness explained by abiotic and biotic variables across COGs between species level and Lm lineage III.
 
-```Supplementary Fig. 11```: Comparison of genome size, GC content, LIPI-1, LIPI-2, LIPI-4, _inl_, ARG, IS, transposons, and prophage between soil and clinical isolates.
+```Supplementary Fig. 12```: Comparison of genome size, GC content, LIPI-1, LIPI-2, LIPI-4, _inl_, ARG, IS, transposons, and prophage between soil and clinical isolates.
