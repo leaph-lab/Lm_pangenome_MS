@@ -1,5 +1,5 @@
 # Lm_pangenome_MS
-Code used to replicate data analyses in the manuscruipt "Disentangling the impact of abiotic and biotic environmental factors and dispersal dynamics on bacterial pangenome plasticity of bacterial pathogens in soil."
+Code used to replicate data analyses in the manuscruipt "Disentangling the impacts of abiotic and biotic environmental factors and dispersal dynamics on the pangenome plasticity of bacterial pathogens in soil."
 
 ## Required Python packages
 - pandas
