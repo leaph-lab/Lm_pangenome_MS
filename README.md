@@ -1,5 +1,5 @@
 # Lm_pangenome_MS
-Code used to replicate data analyses in the manuscruipt "Disentangling the impact of abiotic and biotic environmental factors and dispersal dynamics on bacterial pangenome fluidity."
+Code used to replicate data analyses in the manuscruipt "Disentangling the impact of abiotic and biotic environmental factors and dispersal dynamics on bacterial pangenome plasticity of bacterial pathogens in soil."
 
 ## Required Python packages
 - pandas
@@ -27,38 +27,40 @@ Code used to replicate data analyses in the manuscruipt "Disentangling the impac
 > - For any R code execution directly in the notebook, make sure to include the appropriate ```%R``` or ```%%R``` syntax when working with the ```rpy2``` extension.
 
 ## Structure
-```Lm_pangenome_MS.ipynb```: The code used for analysis and to generate the plots in Figs. 1a–d, 1f, 2a–d, 2f-i, 3a-h, and Supplementary Figs. 1, 2, 4, 6-8, and 11.
+```Lm_pangenome_MS.ipynb```: The code used for analysis and to generate the plots in Figs. 1a–d, 1g, 2a–d, 2g, 3a-h, 4a, and Supplementary Figs. 1-2, 4, 6-11, and 14.
 
 The code included analysis for:\
-```Supplementary Fig. 1```: Pangenome size and gene richness of _Lm_.
+```Supplementary Fig. 1```: Pangenome size and gene richness of _L. monocytogenes_ (_Lm_).
 
-```Fig. 1a```: Variation partitioning analysis (VPA) and permutation tests to explain overall gene richness using abiotic variables.\
-```Fig. 1b```: VPA and permutation tests to explain gene richness, stratified by Clusters of Orthologous Groups (COGs), using abiotic variables.\
-```Fig. 1c```: Spearman's correlation between gene richness and abiotic variables.\
-```Supplementary Fig. 2```: Proportion of abiotic variables associated with gene richness across COGs in _Lm_.\
-```Fig. 1d```: Redundancy Analysis (RDA) between the accessory genome of _Lm_ and abiotic variables.\
-```Fig. 1f```: Enrichment of COGs among abiotic-linked genes.
+```Fig. 1a```: Variation partitioning analysis (VPA) showing the variation of gene richness explained by geolocation, soil properties, climate, and surrounding land use.\
+```Fig. 1b```: Variation of gene richness for Clusters of Orthologous Genes (COGs) explained by abiotic factors in VPA.\
+```Fig. 1c```: Spearman’s correlation between abiotic factors and gene richness, overall and for significant COGs identified in VPA.\
+```Supplementary Fig. 2```: Frequency of abiotic environmental factors significantly correlated with gene richness for COGs, sorted in descending order.\
+```Fig. 1d```: Redundancy Analysis (RDA) biplot illustrating the relationships between the _Lm_ accessory genome and 31 abiotic variables selected by Lasso regularization.\
+```Fig. 1g```: Enrichment of COGs among abiotic-linked genes.
 
-```Fig. 2a```: VPA and permutation tests to explain overall gene richness using both abiotic and biotic (relative abundance of bacterial phyla) variables.\
-```Fig. 2b```: VPA and permutation tests to explain gene richness, stratified by COGs, using both abiotic and biotic variables.\
-```Fig. 2c```: Spearman's correlation between gene richness and biotic variables.\
-```Supplementary Fig. 4```: Proportion of bacterial phyla associated with gene richness across COGs in _Lm_.\
-```Fig. 2d```: RDA between the accessory genome of _Lm_ and biotic variables.\
-```Supplementary Fig. 6a```: Enrichment of COGs among biotic-linked genes.\
-```Supplementary Fig. 6b```: Overlap between abiotic- and biotic-linked genes.\
-```Supplementary Fig. 6c```: Enrichment of COGs among exclusive abiotic-linked genes.\
+```Fig. 2a```: VPA showing the variation of gene richness explained by abiotic and biotic factors.\
+```Fig. 2b```: Variation of gene richness for COGs explained by abiotic and biotic factors in VPA.\
+```Fig. 2c```: Spearman’s correlation between the relative abundance of bacterial phyla and gene richness, overall and for significant COGs identified in VPA.\
+```Supplementary Fig. 4```: Frequency of biotic factors significantly correlated with gene richness for COGs, sorted in descending order.\
+```Fig. 2d```: RDA biplot illustrating the relationships between the _Lm_ accessory genome and 17 phyla selected by Lasso regularization.\
+```Supplementary Fig. 6```: Functions of abiotic- and biotic-linked genes.\
 ```Fig. 2g```: Enrichment of COGs among exclusive biotic-linked genes.
 
-```Fig. 3a```: Distribution of _Lm_ lineages in the soil accross the US.\
-```Supplementary Fig. 7```: Mann-Whitney _U_ test to identify abiotic variables significantly differing among _Lm_ lineages.\
-```Fig. 3b```: Multidimensional scaling (MDS) on abiotic variables among _Lm_ lineages.\
-```Supplementary Fig. 8```: Mann-Whitney _U_ test to identify bacterial phyla with significantly different relative abundance among _Lm_ lineages.\
-```Fig. 3c```: MDS of bacterial community compositions using weighted UniFrac distances of OTUs among _Lm_ lineages.\
-```Fig. 3d```: Pangenome composition across _Lm_ lineages, stratified into core and accessory genes, and predicted pangenome sizes for _Lm_ genomes based on 100 genomes per lineage.\
-```Fig. 3e```: Functional enrichment analysis of COGs for lineage-associated genes.\
-```Fig. 3f```: Comparison of genome size and GC content among _Lm_ lineages.\
-```Supplementary Fig. 9```: Comparison of _Listeria_ pathogenicity island (LIPI) genes, internalin (inl) genes, stress survival islet (SSI) genes, antibiotic resistance genes (ARGs), and mobile genetic elements (MGEs), including proportions of insertion sequences (IS), transposons, and prophages, among _Lm_ lineages.\
-```Fig. 3g```: VPA and permutation tests to explain overall gene richness using both abiotic and biotic variables for _Lm_ lineage III.\
-```Fig. 3h```: Comparison of the variation in gene richness explained by abiotic and biotic variables across COGs between species level and Lm lineage III.
+```Fig. 3a```: Map showing the distribution of _Lm_ lineages in soils across the US.\
+```Supplementary Fig. 7```: Abiotic factors compared among _Lm_ lineages.\
+```Fig. 3b```: Multidimensional scaling (MDS) analysis for _Lm_ lineages based on abiotic conditions.\
+```Supplementary Fig. 8```: Relative abundance of bacterial phyla compared among _Lm_ lineages.\
+```Fig. 3c```: MDS analysis for _Lm_ lineages based on bacterial community composition using weighted UniFrac distances based on OTUs.\
+```Fig. 3d```: Pangenome sizes of _Lm_ lineages, stratified into core and accessory genome sizes, and predicted pangenome sizes based on 100 genomes per lineage.\
+```Fig. 3e```: Enrichment of COGs among lineage-associated genes.\
+```Fig. 3f```: Genome size and GC content compared among _Lm_ lineages.\
+```Supplementary Fig. 9```: Genetic elements compared among _Lm_ lineages.\
+```Fig. 3g```: VPA showing the variation of gene richness for lineage III explained by abiotic and biotic factors.\
+```Fig. 3h```: Variation of gene richness for COGs explained by abiotic and biotic factors at the species level and within lineage III.
 
-```Supplementary Fig. 12```: Comparison of genome size, GC content, LIPI-1, LIPI-2, LIPI-4, _inl_, ARG, IS, transposons, and prophage between soil and clinical isolates.
+```Fig. 4a```: Linear regression for genetic similarities measured by average nucleotide identity (ANI) and geographic distances for _Lm_ lineage I, II, and III.\
+```Supplementary Fig. 10```: Dispersal patterns of _Lm_ lineages after downsampling.\
+```Supplementary Fig. 11```: Dispersal patterns of _Lm_ lineage II after excluding the distant cluster.\
+
+```Supplementary Fig. 14```: Genomic features compared between epidemiologically linked soil and clinical _Lm_ lineage I isolates.
