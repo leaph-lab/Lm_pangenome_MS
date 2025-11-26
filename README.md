@@ -61,6 +61,6 @@ The code included analysis for:\
 
 ```Fig. 4a```: Linear regression for genetic similarities measured by average nucleotide identity (ANI) and geographic distances for _Lm_ lineage I, II, and III.\
 ```Supplementary Fig. 10```: Dispersal patterns of _Lm_ lineages after downsampling.\
-```Supplementary Fig. 11```: Dispersal patterns of _Lm_ lineage II after excluding the distant cluster.\
+```Supplementary Fig. 11```: Dispersal patterns of _Lm_ lineage II after excluding the distant cluster.
 
 ```Supplementary Fig. 14```: Genomic features compared between epidemiologically linked soil and clinical _Lm_ lineage I isolates.
