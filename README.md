@@ -1,5 +1,5 @@
 # Lm_pangenome_MS
-Code used to replicate data analyses in the manuscruipt "Multi-scale ecological drivers shape the pangenome plasticity of soil-dwelling _Listeria monocytogenes_."
+Code used to replicate data analyses in the manuscript "Multi-scale ecological drivers shape the pangenome plasticity of soil-dwelling _Listeria monocytogenes_."
 
 ## Required Python packages
 - pandas
