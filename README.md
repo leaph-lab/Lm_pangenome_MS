@@ -2,7 +2,7 @@
 Code used to replicate data analyses in the manuscript "Multi-scale ecological drivers shape the pangenome plasticity of soil-dwelling _Listeria monocytogenes_."
 
 ## Citation
-Goh YX, Hardeep FN, Zhang H, Liao J. Multi-scale ecological drivers shape the genome flexibility of soil-dwelling _Listeria monocytogenes_. _ISME Commun_, Apr 10:ycag093 (2026). https://doi.org/10.1093/ismeco/ycag093
+Goh YX, Hardeep FNU, Zhang H, Liao J. Multi-scale ecological drivers shape the genome flexibility of soil-dwelling _Listeria monocytogenes_. _ISME Commun_, Apr 10:ycag093 (2026). https://doi.org/10.1093/ismeco/ycag093
 
 ## Required Python packages
 - pandas
